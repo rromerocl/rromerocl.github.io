@@ -17,11 +17,11 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-GMYCFL03HW"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    gtag('config', 'G-GMYCFL03HW');
+        gtag('config', 'G-GMYCFL03HW');
     </script>    
 </head>
 <body>
@@ -39,8 +39,12 @@
                         <a class="nav-link" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">Sobre Mi</a>
+                        <a class="nav-link" href="#about">Sobre Ricardo</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contáctame</a>
+                    </li>                    
+                    
                 </ul>
                 
             </div>
@@ -51,10 +55,10 @@
     <section class="bgimage" id="home">
         <div class="container-fluid">
             <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                <h2 class="hero_title">Ricardo Romero</h2>
-                <p class="hero_desc">Ingeniero de Software, Arquitecto TI Cloud</p>
-                <p class="hero_desc">Santiago de Chile</p>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text">
+                <h2 class="title">Ricardo Romero</h2>
+                <p class="desc">Ingeniero de Software, Arquitecto TI Cloud</p>
+                <p class="desc">Santiago de Chile</p>
                 
             </div>
             </div>
@@ -64,7 +68,7 @@
     <!-- about section-->
     <section id="about">
         <div class="container mt-4 pt-4">
-            <h1 class="text-center">Sobre Mi</h1>
+            <h1 class="text-center">Sobre Ricardo</h1>
             <div class="row mt-4">
 
                 <div class="col-lg-4">
@@ -72,25 +76,45 @@
                 </div>
 
                 <div class="col-lg-8">
-                    <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged
+                    <p> 
+                        Profesional Informático con alto grado de compromiso laboral, cuento con más de 10 años de experiencia en Ingeniería de Software. 
                     </p>
                     <div class="row mt-3">
-                        <div class="col-md-6">
-                            <ul>
-                                <li>Nombre: Ricardo Romero</li>
-                                <li>Edad: 15</li>
-                                <li>Trabajo: Ingeniero de Software</li>
-
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row mt-3">
-                        <p> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                        <p> 
+                            Arquitecto TI Cloud, líder técnico ágil, liderazgo de proyectos Web, Soa, Unix para banca y telecomunicaciones orientado al logro de objetivos y cumplimientos de metas. Cuento con habilidades para la formación de equipos de alto rendimientos en tecnología Java JEE y arquitectura orientada a servicios.                                                         
                         </p>
                     </div>
+                    <div class="row mt-3">
+                        <p> 
+                            Aficionado al deporte, pasar tiempo de calidad con mi familia y nunca parar de aprender.
+                        </p>
+                    </div>                    
+                    
                 </div>
             </div>
+    </section>
+
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contáctame</h1>
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form>
+                        <input type="text" class="form-control form-control-lg" placeholder="Nombre">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Tema">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Detalle"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-success mt-3">Contáctame</button>
+                    
+                </div>
+
+            </div>
+        </div>
     </section>
 
     <!-- footer section-->
@@ -102,8 +126,11 @@
                 <a href="https://github.com/rromerocl" target="_blank"><i class="fab fa-github"></i></a>
             </div>
         </div>
+        <div class="container-fluid">
+            &copy;2022 Ricardo Romero    
+        </div>
     </footer>
-
+    
     <!-- load javascript after loading all html content -->
     <script src="script.js"></script>
 </body>
